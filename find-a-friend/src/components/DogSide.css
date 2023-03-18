@@ -1,0 +1,92 @@
+.right-side {
+    margin-top: 40px;
+    display: grid;
+    grid-template-columns: 59.2rem 9.5rem;
+    grid-template-rows: 38.6rem 15.2rem 7rem;
+    column-gap: 1.6rem;
+    row-gap: 2rem;
+    grid-template-areas: 
+    "dog rect-three"
+    "rect-button rect-three"
+    "rect-two rect-four";
+}
+
+.dog-rect {
+    position: relative;
+    background: linear-gradient(153.09deg, #F36A6F 17.23%, #E44449 73.77%);
+    border-radius: 20px;
+    grid-area: dog;
+}
+
+.dog-rect img {
+    position: absolute;
+    bottom: 0;
+    left: 15%;
+    width: 40.6rem;
+}
+
+.btn-rect {
+    background: #E44449;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    grid-area: rect-button;
+}
+
+.btn-rect button {
+    background: #FFFFFF;
+    border-radius: 20px;
+    width: 49.2rem;
+    height: 7.2rem;
+    border: none;
+    color: #0D3B66;
+    font-weight: 800;
+    font-size: 2rem;
+    line-height: 34px;
+    cursor: pointer;
+}
+
+.rect-two {
+    background: #E44449;
+    border-radius: 20px 20px 0 0;
+    grid-area: rect-two;
+}
+
+.rect-three {
+    background: #E44449;
+    border-radius: 20px 0 0 20px;
+    grid-area: rect-three;
+}
+
+.rect-four {
+    background: #E44449;
+    border-radius: 20px 0 0 0;
+    grid-area: rect-four;
+}
+
+@media (max-width: 1270px) {
+    .right-side {
+        grid-template-columns: 40rem 0;
+        grid-template-areas:
+        "dog dog"
+        "rect-button";
+    }
+
+    .dog-rect img {
+        left: 5%;
+    }
+
+    .btn-rect button {
+        width: 30rem;
+    }
+
+}
+
+@media (max-width: 980px) {
+    .right-side {
+        justify-content: stretch;
+    }
+}
+
+

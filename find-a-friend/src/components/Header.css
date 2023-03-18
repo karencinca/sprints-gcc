@@ -1,0 +1,37 @@
+header {
+    background-color: #F15156;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 52px 113px;
+}
+
+.nav ul {
+    display: flex;
+    gap: 6.2rem;
+}
+
+.nav ul li {
+    list-style: none;
+    font-size: 1.8rem;
+}
+
+.nav ul li a {
+    text-decoration: none;
+    color: #FFFFFF;
+    opacity: 0.5;
+}
+
+@media (max-width: 1270px) {
+    .nav ul {
+        gap: 2.5rem;
+    }
+
+    .nav ul li {
+        font-size: 1.6rem;
+    }
+
+    header {
+        padding: 52px 20px;
+    }
+}

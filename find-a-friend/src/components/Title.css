@@ -1,0 +1,56 @@
+.near-friends {
+    display: flex;
+    align-items: center;
+    margin-top: 40px;
+}
+
+.friends-pics {
+    display: flex;
+}
+
+.friends-pics img {
+    width: 32px;
+    height: 32px;
+    margin-left: -10px;
+}
+
+.near-friends span {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.6rem;
+    line-height: 34px;
+    color: #FFFFFF;
+    margin-left: .8rem;
+}
+
+h1 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 7.2rem;
+    line-height: 110%;
+    letter-spacing: -0.02em;
+    color: #FFFFFF;
+    margin: 70px 0px 81px;
+    width: 45rem;
+}
+
+h3 {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 2.4rem;
+    line-height: 34px;
+    color: #FFFFFF;
+    width: 45rem;
+    margin-bottom: 122px;
+}
+
+@media (max-width: 1270px) {
+    h1 {
+        font-size: 6rem;
+        width: 38rem;
+    }
+
+    h3 {
+        font-size: 2rem;
+    }
+}
