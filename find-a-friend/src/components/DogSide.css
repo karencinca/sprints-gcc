@@ -83,10 +83,4 @@
 
 }
 
-@media (max-width: 980px) {
-    .right-side {
-        justify-content: stretch;
-    }
-}
-
 
