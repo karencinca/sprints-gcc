@@ -43,6 +43,12 @@ header {
 
 @media (max-width: 1000px) {
     header {
+        padding: 30px 20px;
+    }
+}
+
+@media (max-width: 885px) {
+    header {
         padding: 24px 20px;
         background-color: #E44449;
         height: 8rem;
@@ -70,10 +76,14 @@ header {
     .mobile-nav {
         background-color: #E44449;
         display: flex;
+        width: 100%;
         justify-content: flex-start;
         align-items: center;
         padding: 20px;
         border-top: 1px solid #ffffff1f;
+        position: absolute;
+        z-index: 1;
+        border-radius: 0px 0px 20px 20px;
     }
     
     .mobile-nav ul {
