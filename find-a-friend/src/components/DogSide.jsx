@@ -16,6 +16,10 @@ export function DogSide() {
             <div className='rect-two'></div>
             <div className='rect-three'></div>
             <div className='rect-four'></div>
+
+            <div>
+                
+            </div>
         </div>
     )
 }

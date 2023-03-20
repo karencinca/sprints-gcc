@@ -22,7 +22,7 @@
     position: absolute;
     bottom: 0;
     left: 15%;
-    width: 40.6rem;
+    max-width: 40.6rem;
 }
 
 .btn-rect {
@@ -126,6 +126,33 @@ button.mobile-btn {
     }
 }
 
+@media (max-width: 400px) {
+    .right-side {
+        display: flex;
+        justify-content: center;
+    }
+    .dog-rect {
+        width: 250px;
+        height: 250px;
+    }
 
+    .dog-rect img {
+        width: 250px;
+        height: 250px;
+    }
+
+    button.mobile-btn {
+        width: 20.9rem;
+        height: 4.5rem;
+        left: 8%;
+    }
+
+    /* .rect-two {
+        display: block;
+        height: 38.6rem;
+        width: 200px;
+        left: -300px;
+    } */
+}
 
 

@@ -135,8 +135,12 @@ h2 {
 }
 
 @media (max-width: 500px) {
+    .container {
+        margin: 70px 20px 20px 20px;
+    }
+
     .screen-mobile {
-        margin-top: 250px;
+        margin-top: 350px;
         height: 300px;
     }
 
@@ -145,4 +149,34 @@ h2 {
         object-fit: contain;
         object-position: 5px 0px;
     }
+}
+
+@media (max-width: 400px) {
+    .container {
+        margin: 70px 20px 20px 20px;
+    }
+
+    h2 {
+        font-size: 3rem;
+    }
+
+    .cards {
+        margin-top: 30px;
+    }
+
+    .screen-mobile {
+        margin-top: 210px;
+        height: 150px;
+    }
+
+    .screen-mobile img {
+        width: 330px;
+        object-fit: contain;
+        object-position: 5px 0px;
+    }
+
+    .card-one, .card-two, .card-three {
+        gap: 30px;
+    }
+
 }

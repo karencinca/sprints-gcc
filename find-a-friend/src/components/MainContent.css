@@ -20,5 +20,12 @@
     }
 }
 
+@media (max-width: 500px) {
+    .main-content-container {
+        height: 700px;
+    }
+
+}
+
 
 

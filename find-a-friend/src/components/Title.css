@@ -69,3 +69,11 @@ h3 {
         display: none;
     }
 }
+
+@media (min-width: 350px) {
+    h1 {
+        font-size: 4rem;
+        width: 25rem;
+        margin-bottom: 20px;
+    }
+}
