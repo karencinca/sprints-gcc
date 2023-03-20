@@ -20,6 +20,11 @@ header {
     text-decoration: none;
     color: #FFFFFF;
     opacity: 0.5;
+    transition: .3s;
+}
+
+.nav ul li a:hover {
+    opacity: 1;
 }
 
 .mobile-nav, .menu, .hide {
@@ -105,6 +110,11 @@ header {
         letter-spacing: -0.02em;
         color: #FFFFFF;
         opacity: 0.5;
+        transition: .3s;
+    }
+
+    .mobile-nav ul li a:hover {
+        opacity: 1;
     }
 
     .menu {

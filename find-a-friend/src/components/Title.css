@@ -54,3 +54,18 @@ h3 {
         font-size: 2rem;
     }
 }
+
+@media (max-width: 800px) {
+    .near-friends {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .near-friends span {
+        margin-left: -.8rem;
+    }
+
+    h3 {
+        display: none;
+    }
+}

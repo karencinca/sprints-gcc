@@ -6,6 +6,9 @@ export function DogSide() {
         <div className='right-side'>
             <div className='dog-rect'>
                 <img src={Dog} alt="dog" />
+                <button type='button' className='mobile-btn'>
+                    Acesse agora
+                </button>
             </div>
             <div className='btn-rect'>
                 <button type='button'>Acesse agora</button>
