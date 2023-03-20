@@ -126,7 +126,7 @@ button.mobile-btn {
     }
 }
 
-@media (max-width: 400px) {
+@media (max-width: 500px) {
     .right-side {
         display: flex;
         justify-content: center;
@@ -138,7 +138,6 @@ button.mobile-btn {
 
     .dog-rect img {
         width: 250px;
-        height: 250px;
     }
 
     button.mobile-btn {
